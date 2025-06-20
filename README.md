@@ -38,7 +38,7 @@ Add "cdylib" to the created Cargo.toml.
 
 ```
 [package]
-name = "godot_wasm"
+name = "rust"
 version = "0.1.0"
 edition = "2024"
 
