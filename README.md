@@ -1,6 +1,6 @@
 # Godot 4 & Rust WebAssembly
 
-<img width="600" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/logo.png">
+<img width="700" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/logo.png">
 
 To use Rust with Godot 4, use godot-wasm.
 
@@ -12,13 +12,13 @@ Now, let's go ahead and install "godot-wasm" on Godot.
 
 Create a new project with any name.
 
-<img width="400" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_1.png">
+<img width="300" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_1.png">
 
 Select the AssetLib tab and enter "asm" to find "godot-wasm".
 
-<img width="400" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_2.png">
+<img width="350" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_2.png">
 
-<img width="400" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_3.png">
+<img width="350" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_3.png">
 
 Now, we will also create a project on the Rust side.
 
@@ -84,17 +84,17 @@ A wasm file is generated in the following path, and this is added to the Godot p
 target/wasm32-unknown-unknown/release/godot_wasm.wasm
 ```
 
-<img width="400" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_4.png">
+<img width="300" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_4.png">
 
 You can add them to Godot's file system by dragging and dropping.
 
-<img width="400" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_5.png">
+<img width="300" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_5.png">
 
 The file itself does not appear in the file system, but it is added.
 
 Now, create a 2D scene in Godot, rename it to Main and attach the script.
 
-<img width="400" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_6.png">
+<img width="300" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_6.png">
 
 We will modify main.gd as follows.
 
@@ -133,7 +133,7 @@ func _process(delta: float) -> void:
 
 If the Godot console displays "Hello WebAssembly!
 
-<img width="400" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_7.png">
+<img width="350" src="https://github.com/godot-game-samples/godot-wasm/blob/main/assets/screenshot/image_7.png">
 
 ## Article
 
